@@ -13,7 +13,7 @@ class Category(db.Model):
 
 
 
-class Task(db.model):
+class Task(db.Model):
     # Schema for the task model
     id = db.Column(db.Integer, primary_key=True)
     task_name = db.Column(db.String(50), unique=True, nullable=False)
